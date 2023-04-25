@@ -1,0 +1,446 @@
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:40:28 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:40:28 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:40:28 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# ** Error (suppressible): ../src/Miller_Demodule.v(10): (vlog-2388) 'Bit_in' already declared in this scope (Miller_Demodule) at ../src/Miller_Demodule.v(4).
+# ** Error (suppressible): ../src/Miller_Demodule.v(11): (vlog-2388) 'Bit_in_valid' already declared in this scope (Miller_Demodule) at ../src/Miller_Demodule.v(5).
+# -- Compiling module Miller_Module
+# ** Error (suppressible): ../src/Miller_Module.v(12): (vlog-2388) 'Miller_BitOut' already declared in this scope (Miller_Module) at ../src/Miller_Module.v(8).
+# -- Compiling module Miller_top
+# ** Error: (vlog-13069) ../src/Miller_top.v(33): near "/": syntax error, unexpected '/'.
+# ** Error: ../src/Miller_top.v(36): (vlog-13205) Syntax error found in the scope following 'data_in_valid_r2'. Is there a missing '::'?
+# End time: 14:40:28 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./compile.do line 12
+# C:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -work work ../src/*.v"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:41:06 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:41:06 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:41:06 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# ** Error (suppressible): ../src/Miller_Demodule.v(10): (vlog-2388) 'Bit_in' already declared in this scope (Miller_Demodule) at ../src/Miller_Demodule.v(4).
+# ** Error (suppressible): ../src/Miller_Demodule.v(11): (vlog-2388) 'Bit_in_valid' already declared in this scope (Miller_Demodule) at ../src/Miller_Demodule.v(5).
+# -- Compiling module Miller_Module
+# ** Error (suppressible): ../src/Miller_Module.v(12): (vlog-2388) 'Miller_BitOut' already declared in this scope (Miller_Module) at ../src/Miller_Module.v(8).
+# -- Compiling module Miller_top
+# End time: 14:41:06 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./compile.do line 12
+# C:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -work work ../src/*.v"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:42:43 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:42:43 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:42:44 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# -- Compiling module Miller_Module
+# ** Error (suppressible): ../src/Miller_Module.v(12): (vlog-2388) 'Miller_BitOut' already declared in this scope (Miller_Module) at ../src/Miller_Module.v(8).
+# -- Compiling module Miller_top
+# End time: 14:42:44 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./compile.do line 12
+# C:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -work work ../src/*.v"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:43:20 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:43:20 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:43:20 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# 
+# Top level modules:
+# 	Miller_top
+# End time: 14:43:21 on Apr 24,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:43:21 on Apr 24,2023
+# vlog -reportprogress 300 -work work tb_miller.v 
+# -- Compiling module tb_miller
+# 
+# Top level modules:
+# 	tb_miller
+# End time: 14:43:21 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.glbl work.tb_miller 
+# Start time: 14:43:21 on Apr 24,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Miller_Demodule(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Miller_top(fast)".
+# ** Note: (vopt-143) Recognized 2 FSMs in module "Miller_Module(fast)".
+# Loading work.glbl(fast)
+# Loading work.tb_miller(fast)
+# Loading work.Miller_top(fast)
+# Loading work.Miller_Module(fast)
+# Loading work.Miller_Demodule(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sin  Hostname: DESKTOP-J0I4HRT  ProcessID: 3328
+#           Attempting to use alternate WLF file "./wlftxngh4s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftxngh4s
+add wave -position insertpoint  \
+sim:/tb_miller/clk
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Bit_out
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Bit_out_valid
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Bit_out_tready
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_BitOut
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_tx/clk_cnt
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_tx/send_tmp
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_rx/Bit_in
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_rx/Bit_in_valid
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_rx/clk_cnt
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_rx/bit_cnt
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_rx/Miller_BitIn_tmp
+add wave -position insertpoint  \
+sim:/tb_miller/u_Miller_top/Miller_rx/Bit_sync
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:52:42 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:52:42 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:52:42 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# 
+# Top level modules:
+# 	Miller_top
+# End time: 14:52:42 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:52:42 on Apr 24,2023
+# vlog -reportprogress 300 -work work tb_miller.v 
+# -- Compiling module tb_miller
+# 
+# Top level modules:
+# 	tb_miller
+# End time: 14:52:42 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:52:47 on Apr 24,2023, Elapsed time: 0:09:26
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.glbl work.tb_miller 
+# Start time: 14:52:47 on Apr 24,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.glbl(fast)
+# Loading work.tb_miller(fast)
+# Loading work.Miller_top(fast)
+# Loading work.Miller_Module(fast)
+# Loading work.Miller_Demodule(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sin  Hostname: DESKTOP-J0I4HRT  ProcessID: 3328
+#           Attempting to use alternate WLF file "./wlfthgmrj0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfthgmrj0
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:53:42 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 14:53:43 on Apr 24,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:53:43 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# 
+# Top level modules:
+# 	Miller_top
+# End time: 14:53:43 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 14:53:43 on Apr 24,2023
+# vlog -reportprogress 300 -work work tb_miller.v 
+# -- Compiling module tb_miller
+# 
+# Top level modules:
+# 	tb_miller
+# End time: 14:53:43 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:53:47 on Apr 24,2023, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.glbl work.tb_miller 
+# Start time: 14:53:47 on Apr 24,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.glbl(fast)
+# Loading work.tb_miller(fast)
+# Loading work.Miller_top(fast)
+# Loading work.Miller_Module(fast)
+# Loading work.Miller_Demodule(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sin  Hostname: DESKTOP-J0I4HRT  ProcessID: 3328
+#           Attempting to use alternate WLF file "./wlftk842g3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftk842g3
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:06:56 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:06:56 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:06:56 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# ** Error (suppressible): ../src/Miller_Demodule.v(10): (vlog-2388) 'Bit_in' already declared in this scope (Miller_Demodule) at ../src/Miller_Demodule.v(4).
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# End time: 15:06:56 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./compile.do line 12
+# C:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -work work ../src/*.v"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:07:28 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:07:28 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:07:29 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# ** Error: (vlog-13069) ../src/Miller_Demodule.v(10): near "=": syntax error, unexpected '='.
+# ** Error: ../src/Miller_Demodule.v(10): (vlog-13205) Syntax error found in the scope following 'Bit_in'. Is there a missing '::'?
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# End time: 15:07:29 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/modeltech64_2020.4/win64/vlog failed.
+# Error in macro ./compile.do line 12
+# C:/modeltech64_2020.4/win64/vlog failed.
+#     while executing
+# "vlog  -work work ../src/*.v"
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:07:56 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:07:56 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:07:56 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# 
+# Top level modules:
+# 	Miller_top
+# End time: 15:07:56 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:07:56 on Apr 24,2023
+# vlog -reportprogress 300 -work work tb_miller.v 
+# -- Compiling module tb_miller
+# 
+# Top level modules:
+# 	tb_miller
+# End time: 15:07:56 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:08:01 on Apr 24,2023, Elapsed time: 0:14:14
+# Errors: 2, Warnings: 2
+# vsim -voptargs="+acc" work.glbl work.tb_miller 
+# Start time: 15:08:01 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Miller_Demodule(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "Miller_top(fast)".
+# Loading work.glbl(fast)
+# Loading work.tb_miller(fast)
+# Loading work.Miller_top(fast)
+# Loading work.Miller_Module(fast)
+# Loading work.Miller_Demodule(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sin  Hostname: DESKTOP-J0I4HRT  ProcessID: 3328
+#           Attempting to use alternate WLF file "./wlft238ka8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft238ka8
+do compile.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:09:16 on Apr 24,2023
+# vlog -reportprogress 300 -work work glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:09:16 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:09:17 on Apr 24,2023
+# vlog -reportprogress 300 -work work ../src/Miller_Demodule.v ../src/Miller_Module.v ../src/Miller_top.v 
+# -- Compiling module Miller_Demodule
+# -- Compiling module Miller_Module
+# -- Compiling module Miller_top
+# 
+# Top level modules:
+# 	Miller_top
+# End time: 15:09:17 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:09:17 on Apr 24,2023
+# vlog -reportprogress 300 -work work tb_miller.v 
+# -- Compiling module tb_miller
+# 
+# Top level modules:
+# 	tb_miller
+# End time: 15:09:17 on Apr 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:09:21 on Apr 24,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.glbl work.tb_miller 
+# Start time: 15:09:21 on Apr 24,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Miller_Demodule(fast)".
+# Loading work.glbl(fast)
+# Loading work.tb_miller(fast)
+# Loading work.Miller_top(fast)
+# Loading work.Miller_Module(fast)
+# Loading work.Miller_Demodule(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: sin  Hostname: DESKTOP-J0I4HRT  ProcessID: 3328
+#           Attempting to use alternate WLF file "./wlftzm45kz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzm45kz
+# Can't move the Now cursor.

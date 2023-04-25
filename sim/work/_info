@@ -1,0 +1,207 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/githubPrj/fpga_prj/crc8/sim
+T_opt
+!s110 1681522994
+V:?`fQ0`nT[i;1zi=ZS87<1
+Z1 04 4 4 work glbl fast 0
+Z2 04 7 4 work tb_crc8 fast 0
+=1-1008b1f6cc79-643a0132-209-d00
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1681524272
+VSVY`@_`Vh_[D838I=8FC^1
+R1
+R2
+=1-1008b1f6cc79-643a0630-225-242c
+R3
+R4
+n@_opt1
+R5
+R0
+T_opt2
+!s110 1682320162
+Vf>050GC<YDH=6k6:lAV4Q0
+R1
+04 9 4 work tb_miller fast 0
+=1-1008b1f6cc79-64462b21-393-1bbc
+R3
+R4
+n@_opt2
+R5
+vcrc8
+Z6 !s110 1681524421
+!i10b 1
+!s100 ZJ;g;d`S:FX:@RKd`5OgB3
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Im2;0K0mDmTQXK1oZe3ONF3
+R0
+w1681524245
+8../src/crc8.v
+F../src/crc8.v
+!i122 33
+L0 1 147
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1681524420.000000
+!s107 ../src/crc8.v|
+!s90 -reportprogress|300|-work|work|../src/crc8.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+R4
+vglbl
+!s110 1682320156
+!i10b 1
+!s100 DCW3=ePZ4oEojGg2KL;HS0
+R7
+IUnoQ6^CBWl`mlgKN0?KI32
+Z11 dE:/githubPrj/miller/sim
+w1558713910
+8glbl.v
+Fglbl.v
+!i122 56
+L0 6 65
+R8
+R9
+r1
+!s85 0
+31
+!s108 1682320156.000000
+!s107 glbl.v|
+!s90 -reportprogress|300|-work|work|glbl.v|
+!i113 0
+R10
+R4
+vMiller_Demodule
+Z12 !s110 1682320157
+!i10b 1
+!s100 HBH3L[m@o50[YXc<I4mff2
+R7
+I`hTB^zgz?kTV?;9d2ZSRC3
+R11
+w1682320152
+8../src/Miller_Demodule.v
+F../src/Miller_Demodule.v
+!i122 57
+L0 1 104
+R8
+R9
+r1
+!s85 0
+31
+Z13 !s108 1682320157.000000
+Z14 !s107 ../src/Miller_top.v|../src/Miller_Module.v|../src/Miller_Demodule.v|
+Z15 !s90 -reportprogress|300|-work|work|../src/Miller_Demodule.v|../src/Miller_Module.v|../src/Miller_top.v|
+!i113 0
+R10
+R4
+n@miller_@demodule
+vMiller_Module
+R12
+!i10b 1
+!s100 AXa1?jzKjf3T8=J;Dz`>V2
+R7
+IK7f]3mj3`4j;UlFY5ZPfO3
+R11
+w1682318595
+8../src/Miller_Module.v
+F../src/Miller_Module.v
+!i122 57
+L0 1 76
+R8
+R9
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R10
+R4
+n@miller_@module
+vMiller_top
+R12
+!i10b 1
+!s100 UWB<ZdLA2oG[8Ao75jcO00
+R7
+I><aEz38:3IO:8]QO[;Jni1
+R11
+w1682319792
+8../src/Miller_top.v
+F../src/Miller_top.v
+!i122 57
+L0 1 107
+R8
+R9
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R10
+R4
+n@miller_top
+vtb_crc8
+R6
+!i10b 1
+!s100 [m;Ln<I9h=_eE=A9[bdZj1
+R7
+IZj;IR69d_gzka^8AZ@mdY1
+R0
+w1681522982
+8tb_crc8.v
+Ftb_crc8.v
+!i122 34
+L0 2 60
+R8
+R9
+r1
+!s85 0
+31
+!s108 1681524421.000000
+!s107 tb_crc8.v|
+!s90 -reportprogress|300|-work|work|tb_crc8.v|
+!i113 0
+R10
+R4
+vtb_miller
+R12
+!i10b 1
+!s100 W?FzO9JEWY:Q=R]LdFHD_3
+R7
+IZ2HAZQS4IC?^[<KGRMd631
+R11
+w1682318358
+8tb_miller.v
+Ftb_miller.v
+!i122 58
+L0 2 55
+R8
+R9
+r1
+!s85 0
+31
+R13
+!s107 tb_miller.v|
+!s90 -reportprogress|300|-work|work|tb_miller.v|
+!i113 0
+R10
+R4
